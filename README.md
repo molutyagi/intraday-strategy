@@ -1,5 +1,7 @@
 # bullsalgo
+
 {if `jupyter notebook` command does not work, try `python3 -m notebook` it works absolutely fine}
+
 An Intraday Trading Strategy Algorithm
 
 The ScriptData class is used to retrieve and store the intraday data for a given stock symbol. The fetch_intraday_data method uses the alpha_vantage library to retrieve the intraday data for the given symbol, and the convert_intraday_data method converts the raw data into a pandas dataframe and formats it for easier use. The class also implements the __getitem__, __setitem__, and __contains__ methods for convenient access to the stored intraday data.
