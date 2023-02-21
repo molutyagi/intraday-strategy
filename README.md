@@ -12,4 +12,4 @@ The Strategy class is used to implement the trading strategy. The fetch_data met
 
 I tried using pyalgotrading to plot the chart but I was getting "no module errors".
 
-To run the code all you need to do is setup your venv and installa all the requirements. Now simply call the strategy class with a script as an input and then call run method on it.
+To run the code all you need to do is setup your venv and install all the requirements. Now simply call the strategy class with a script as an input and then call run method on it.
