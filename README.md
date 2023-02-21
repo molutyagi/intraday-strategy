@@ -10,6 +10,4 @@ The indicator1 function calculates the moving average of the closing price for a
 
 The Strategy class is used to implement the trading strategy. The fetch_data method retrieves the intraday data using the ScriptData class and calculates the moving average using the indicator1 function. The generate_signals method uses the moving average and the closing price to generate 'BUY', 'SELL', or 'NO_SIGNAL' signals based on a MA crossover strategy. The run method calls the generate_signals method to generate the signals and then prints the resulting signals dataframe.
 
-I tried using pyalgotrading to plot the chart but I was getting "no module errors".
-
 To run the code all you need to do is setup your venv and install all the requirements. Now simply call the strategy class with a script as an input and then call run method on it.
